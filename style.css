@@ -1,0 +1,29 @@
+*{
+    margin :0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: #000;
+    color:#fff;
+    text-align: center;
+    padding:100px 0 0 0;
+}
+.quotes{
+    width:800px;
+    margin:auto;
+}
+@media screen and (min-width:700px){
+    body{
+        padding:200px 0 0 0;
+    }
+}
+.quotes h1,.quotes p{
+    display: inline;
+}
+.quotes p{
+    color:rgb(240,91,64);
+}
+.quotes p bdi{
+    color:yellow;
+}
